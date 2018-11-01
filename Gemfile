@@ -26,9 +26,11 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development, :test, :staging do
   gem 'factory_girl_rails', '4.8.0'
   gem 'ffaker', '2.4.0'
+  gem  'fb_graph-mock', '>= 1.0.4'
 end
